@@ -1,0 +1,79 @@
+[
+  {
+    "year": "2024",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "Pittsburgh",
+    "details": "Worked on adding dynamic skeleton components based on checkout extension sizes to replace a global spinner, allowing each extension to load individually while the customer fills out checkout forms. Built the data collection layer and improved SMS marketing collection by syncing the phone field value with consent changes. Added missing information and processedAt to OrderApi in public docs. Increased timeout for extensions that block progress to reduce checkout flow interruptions. Created custom script commands for easier local testing of extensions and updated public docs and screenshots to reflect correct supported locations of extension targets."
+  },
+  {
+    "year": "2023",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "Pittsburgh",
+    "details": "In 2023 I added video support on Shopify Chat and Shopify Inbox with a custom solution for react-native-web. Overhauled responsive web layout to support small tablets and redirect mobile users to app stores. Introduced alert banners as a new UI component and implemented statsd + apdex metrics for app performance. Removed support for third-party messaging integrations (Messenger, Instagram, Apple Business Chat) and revamped the settings page. Upgraded to React 18, removing unnecessary react imports. Ported all Shopify Admin sales channel settings to Shopify Inbox web and added notification triggers to web settings. Joined the Checkout Extensibility Foundations team and deprecated the old marketing settings API endpoint. Developed a custom SMS marketing component for checkout UI extensions, involving four different repositories and documented the feature extensively."
+  },
+  {
+    "year": "2022",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "Pittsburgh",
+    "details": "In 2022 I added language support using Shop locale and internal documentation. Set up ATC rotation for mobile developers to handle support requests and new releases. Improved UI for conversation assignment and badges, added toast behavior and drawer navigation menu to all platforms, replacing bottom tab navigation and integrating filtering logic. Implemented action sheet on long press, changelog automation, and redesigned store settings. Established A/B testing infrastructure and additional key commands for line breaks. Redesigned conversation list and introduced a 'locked' state for expired conversations. Launched a new customer context feature displaying customer info, notes, order details, geolocation, most viewed products, and Bugsnag alerts. Refactored folder structure, removed the underused 'Teams' feature, and added an active cart feature to customer context, which earned a patent. Included email subscription status in customer context and helped set up GraphQL infrastructure with scripts for schema downloads and TypeScript type generation."
+  },
+  {
+    "year": "2021",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "Pittsburgh",
+    "details": "Converted arrow functions to named functions for better debugging with sourcemaps. Added documentation for deploying new releases and tophatting instructions to reduce shipping risks. Implemented closed and unread conversation filters, FAQ screens, long press to copy text, and editing of automated messages and available hours within Ping. Set up staging environments, fixed and updated Ping onboarding flow, and added Storybook for UI component documentation. Enabled push notifications on iOS and remote web notifications from the server. Integrated Dependabot for package upgrades, added a toggle for staging API environment in app settings, and created a GitHub template for tracking Bugsnag tickets."
+  },
+  {
+    "year": "2020",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "San Francisco",
+    "details": "In 2020, the plan was to port the native iOS Shopify Ping app to a React Native codebase to support iOS, Android, and Web platforms. Interviewed and hired two developers for additional front-end support. Added polling functionality, Apollo REST link, and a sign-up form for Android interest. Developed conversation and message queries/mutations, set up translations, crash reporting (Bugsnag), and a screen for messaging channel integrations. Implemented Android push notifications and reminder logic, set up the build flow, and released the Android app. Established React Native web flow, local notifications for web, deep linking for mobile, and integrated Apollo cache with the Redux store. Converted fetching to Redux thunks, added a Ping teams screen, set up web deploy flow, and implemented websockets."
+  },
+  {
+    "year": "2019",
+    "position": "Senior Developer",
+    "company": "Shopify",
+    "location": "San Francisco",
+    "details": "In 2019, worked on Apple Business Chat by communicating with Apple to tailor API endpoints, building a sales channel to install the chat on merchants' online stores, and integrating it with Shopify Inbox. Added scripts for button customization, sales channel settings, terms of service acceptance, and onboarding, handling both backend (Rails) and frontend tasks. Also worked on marketing pages and store category selection for onboarding. For Shopify Inbox (rebranded from Shopify Chat), developed a first-party chat widget with customizable features, built with Preact for reduced load time, and added automated messaging and accessibility features. Updated marketing pages to promote the new Shopify Chat feature."
+  },
+  {
+    "year": "2018",
+    "position": "Developer",
+    "company": "Shopify",
+    "location": "San Francisco",
+    "details": "In 2018 I completed the IQ dashboard and merged Shopify Shop config into Kit onboarding. Finished Kit Onboarding with Facebook Messenger integration and started the Facebook Ads sales channel in Shopify Admin, transitioning the tech stack to React/TypeScript/GraphQL. Collaborated with another front-end developer, added Facebook info queries, implemented polling, and completed the Facebook Ads setup. Migrated Kit Skills to the Shopify Partners dashboard, updated the code, and began work on Apple Business Manager by year-end."
+  },
+  {
+    "year": "2017",
+    "position": "Developer",
+    "company": "Shopify",
+    "location": "San Francisco",
+    "details": "In 2017, significant updates and enhancements were made across various aspects of Kit CRM, starting with a new onboarding version and design theme in January. Throughout the year, the focus was on refining the user interface and expanding functionality, including the introduction of new login and homepage layouts, an email system overhaul, and the development of new admin areas.\n\nMajor projects included the beta rollout of new email templates, the launch of the Ping landing page, and the initiation of a new product called IQ, a machine-learning algorithm designed to curate personalized ads and create recommondations for the merchant. The year also saw continuous updates to the codebase, adoption of the Shopify Polaris design system, and improvements in navigation and settings UI components, all aimed at enhancing user experience and backend efficiency."
+  },
+  {
+    "year": "2016",
+    "position": "Senior Developer",
+    "company": "Kit CRM & Shopify (via acquisition)",
+    "location": "San Francisco",
+    "details": "In 2016, after joining Kit CRM in January, the team embarked on a series of significant updates and redesigns, including overhauling the onboarding process, redesigning the homepage, subscription, and Kit Skills pages, and integrating social media platforms into the onboarding process.\n\nThe acquisition by Shopify in April led to a migration and cleanup of the codebase, removing references to other e-commerce platforms and standardizing components. Throughout the year, enhancements were made to user dashboards, SEO, email marketing templates, and pricing panels. New features such as a webinar page and a 'Kit Favors' RSVP page were added. The year concluded with a focus on refining user settings, standardizing design elements, and preparing for a second onboarding overhaul."
+  },
+  {
+    "year": "2015",
+    "position": "Student & Teaching Assistant",
+    "company": "General Assembly",
+    "location": "San Francisco",
+    "details": "Completed an intensive summer course focused on full-stack development using Ruby on Rails, MongoDB, and Angular. After graduating, I became a paid Teaching Assistant, mentoring the next cohort and providing support with projects and concepts in evening sessions."
+  },
+  {
+    "year": "2014",
+    "position": "Stryker Driver, Infantry",
+    "company": "US Army National Gaurd",
+    "location": "West Chester, PA",
+    "details": "I received an honorable discharge from the Army National Guard in 2014 after dedicated service as a Stryker driver with the 111th Infantry Regiment. During my tenure, I trained rigorously for a planned deployment to Afghanistan, preparing alongside my unit for mission readiness in challenging conditions, though the deployment was ultimately canceled. My service also included deployment as part of the Hurricane Sandy relief efforts, where I supported critical operations to aid affected communities in the aftermath of the disaster. This experience reinforced my commitment to teamwork, resilience, and readiness under demanding circumstances."
+  }
+]
